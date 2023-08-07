@@ -35,5 +35,13 @@ To setup the project, please follow the following steps;
     ![external_IP](/images/external%20IP%20address%20.png)
     ![mage_running_port](/images/Mage_running_port.png)
     
-    In this example, the final IP address would be; http://34.125.227.122:6789/ which would give you access to your pipeline in an interactive Mage UI. 
-    
+    In this example, the final IP address would be; http://34.125.227.122:6789/ which would give you access to your pipeline in an interactive Mage UI.
+    - Once you are able to access the mage UI, you can then proceed to create your ETL pipeline by simply clickin on the **+New**. 
+    - The first process under this particular project is the **Extraction** process which loads data from the Google Cloud Storage through an API link (see the above picture on the data inside the cloud storage)
+    - Secondly, the **Transformation** code that transforms the data into fact tables and dimension tables. After these conversions, the data is finally stored in the form of a dictionary. Below is a diagram to demonstrate the data model developed after the transformation process;
+    ![data_model](/images/Data_model.png)
+    - Lastly, the transformed data is loaded into the Google Bigquery warehouse for further analysis and dashboard creation.
+    - Below is the actual ETL pipeline as viewed on Mage.
+    ![final_pipeline](/images/Pipeline_on_mage.png)
+
+
