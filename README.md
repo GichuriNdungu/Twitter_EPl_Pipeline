@@ -29,4 +29,11 @@ To setup the project, please follow the following steps;
     ![Google_cloud_engine](/images/e2%20machine.png)
     - After the creation of the E2 machine, you can then be able to access the virtual linux machine through the SSH provided. 
     - Inside the Linux environment, you will need to install mage by running **Pip install Mage-ai**
-    - Following the installation, you can start Mage by running **Mage start 'Name_of_your_pipeline'** 
+    - Following the installation, you can start Mage by running **Mage start 'Name_of_your_pipeline'**
+* ETL Pipeline through Mage
+    - In the previous step, you start mage on the virtual machine. However, you need to write the Extraction, transformation and Loading codes that will be automatically run whenever you start your pipeline. Mage provides a beatiful interface that allows you to visualize how your pipeline looks like. For this, you need to copy the external IP of your virtual machine instance, and add the port that mage is running on (provided when you start mage). The Mage UI will be accessible through the IP + port. Below is an example; 
+    ![external_IP](/images/external%20IP%20address%20.png)
+    ![mage_running_port](/images/Mage_running_port.png)
+    
+    In this example, the final IP address would be; http://34.125.227.122:6789/ which would give you access to your pipeline in an interactive Mage UI. 
+    
