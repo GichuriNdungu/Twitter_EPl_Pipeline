@@ -44,4 +44,7 @@ To setup the project, please follow the following steps;
     - Below is the actual ETL pipeline as viewed on Mage.
     ![final_pipeline](/images/Pipeline_on_mage.png)
 
-
+* Data Dictionary
+    - The data that has been used in this project can further be explored through the following links; 
+        1. https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
+        2. https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
