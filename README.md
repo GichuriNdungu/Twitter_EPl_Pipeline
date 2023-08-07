@@ -14,4 +14,7 @@ This data engineering project aims to create a simple data pipeline that extract
 * Google Cloud Platform
   - Google cloud storage (For storing static data)
   - Google bigquery (For data warehousing)
-  - Google enginet (used to run Mage.AI)
+  - Google engine (used to run Mage.AI)
+## Project Setup
+![Project_breakdown](/images/project_visual.png)
+The above image demonstrates the overall flow of the entire project.
