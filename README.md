@@ -15,6 +15,13 @@ This data engineering project aims to create a simple data pipeline that extract
   - Google cloud storage (For storing static data)
   - Google bigquery (For data warehousing)
   - Google engine (used to run Mage.AI)
-## Project Setup
+## Project flow breakdown
 ![Project_breakdown](/images/project_visual.png)
+
 The above image demonstrates the overall flow of the entire project.
+To setup the project, please follow the following steps; 
+* Connect to google cloud storage and create a new bucket that will house your csv files. 
+    - Having the data stored in google cloud storage aids with easier, online access to the data. 
+    - Data stored in this bucket will look as follows;
+    ![Google_cloud_bucket](/images/cloud_storage.png)
+* Connect and setup Mage.AI for ETL pipeline.
