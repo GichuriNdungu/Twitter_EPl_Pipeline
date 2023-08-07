@@ -28,6 +28,5 @@ To setup the project, please follow the following steps;
     - setting up a virtual machine in Google cloud engine enables the deployment of mage.AI. Creating an E2 virtual machine on the Google cloud platform is the most convenient route. Similar to the google cloud storage, this machine is setup by clicking on the 'create instance' button, after which, you can be able to set the preffered machine specifications to go with. Below is an image of a virtual machine that was used in the development of this project; 
     ![Google_cloud_engine](/images/e2%20machine.png)
     - After the creation of the E2 machine, you can then be able to access the virtual linux machine through the SSH provided. 
-    - Inside the Linux environment, you will need to install mage by running ** Pip install Mage-ai **
-    - Following the installation, you can start Mage by running ** Mage start 'Name_of_your_pipeline'** 
-    
+    - Inside the Linux environment, you will need to install mage by running **Pip install Mage-ai**
+    - Following the installation, you can start Mage by running **Mage start 'Name_of_your_pipeline'** 
